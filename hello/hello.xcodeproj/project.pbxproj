@@ -15,6 +15,7 @@
 		4E7F684B1C34C262006D5DED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E7F68491C34C262006D5DED /* LaunchScreen.xib */; };
 		4E7F68571C34C262006D5DED /* helloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F68561C34C262006D5DED /* helloTests.m */; };
 		4E7F68621C34C280006D5DED /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F68611C34C280006D5DED /* FirstViewController.m */; };
+		4E7F68651C34C3CC006D5DED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F68641C34C3CC006D5DED /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4E7F68561C34C262006D5DED /* helloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloTests.m; sourceTree = "<group>"; };
 		4E7F68601C34C280006D5DED /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		4E7F68611C34C280006D5DED /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4E7F68631C34C3CC006D5DED /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4E7F68641C34C3CC006D5DED /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		4E7F682E1C34C261006D5DED = {
 			isa = PBXGroup;
 			children = (
+				4E7F68631C34C3CC006D5DED /* SecondViewController.h */,
+				4E7F68641C34C3CC006D5DED /* SecondViewController.m */,
 				4E7F68601C34C280006D5DED /* FirstViewController.h */,
 				4E7F68611C34C280006D5DED /* FirstViewController.m */,
 				4E7F68391C34C261006D5DED /* hello */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7F68651C34C3CC006D5DED /* SecondViewController.m in Sources */,
 				4E7F68431C34C262006D5DED /* ViewController.m in Sources */,
 				4E7F68401C34C262006D5DED /* AppDelegate.m in Sources */,
 				4E7F683D1C34C262006D5DED /* main.m in Sources */,
